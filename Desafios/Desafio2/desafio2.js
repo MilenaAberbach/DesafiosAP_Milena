@@ -7,7 +7,7 @@ alert(`Usted compro ${cantidadDeseada} unidades de ${nombreProducto}. El costo t
 
 if(cantidadDeseada >= 5){
 
-    alert(`Tenes un 10% de descuento!!!`)
+    alert(`Tenes un 10% de descuento!!!`);
 
     precio_conDescuento = costoTotal - ((costoTotal * 10)/100);
     Swal.fire(`El costo total, ahora aplicado un 10% de descuento, es: $${precio_conDescuento}`);

@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(245, 245, 245);
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#adressbook_icon{
+    color: rgb(181, 42, 186);
+}
+
+#circleuser_icon{
+    color: rgb(181, 42, 186);
+}
+
+header{
+    background-color: rgb(255, 221, 255);
+    position: relative;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+#aviso_paginas{
+    margin-inline-start: 60px;
+    color: rgb(174, 108, 176);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a{
+    color: rgb(97, 23, 99);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: darkmagenta;
+    margin: 20px;
+    padding: 20px;
+}
+
+p{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+footer{
+    background-color: rgb(255, 221, 255);
+    position: relative;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.card{
+    border: 1px solid #98658d;
+    border-radius: 25px;
+    border-width: 5px;
+    width: 80%;
+    padding: 15px;
+    background-color:rgb(218, 190, 218);
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.card-img{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    filter: grayscale();
+}
+
+.container{
+    width: 90%;
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+.box-one{
+    margin: 20px;
+    width: 70%;
+}
+
+.box-two{
+    margin: 20px;
+    width: 70%;
+}

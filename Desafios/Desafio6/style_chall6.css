@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(245, 245, 245);
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(226, 221, 255);
+    position: relative;
+    max-height: fit-content;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: -35px;
+}
+
+main{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 20px;
+}
